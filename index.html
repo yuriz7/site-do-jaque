@@ -1,0 +1,64 @@
+<!-- Sempre descrever "pt-br" -->
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <!-- Charset pra colocar todos os caracteres, de todo mundo -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Básico do HTML</title>
+</head>
+
+<!-- A tag BODY define o corpo do documento -->
+
+<body>
+    <!-- A tag H1 define o título do texto. Usado pra título principal -->
+    <!-- <h2>Isso é um subtítulo</h2>A tag H2 define o subtítulo do texto. Usado pra subtítulo. Pode ir até H6. -->
+    <!-- <h1>Isso é um título</h1>
+    <p>Isso é um parágrafo</p> -->
+    <!-- A tag img não tem fechamento. A PROPRIEDADE "ALT" serve pra colocar um textinho no lugar da imagem
+    caso ela não carregue  -->
+    <!-- <img src="jake.jpg" alt="Kid goku"> -->
+
+    <header class="cabecalho">
+        <!-- A tag nav serve de 'sessão' pra você navegar dentro da página, uma espécie de guardadora de link's de navegação dentro da página -->
+        <nav class="cabecalho__menu">
+            <!-- O target blank serve pra quando você clicar no link / tag a, ser redirecionado pra outra guia no seu navegador -->
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <!-- Coloque o '__' sempre pra elementos filhos, o primeiro nome é do pai -->
+        <section class="apresentacao__conteudo">
+            <!-- Tag Strong serve pra deixar um negrito mais forte, use quando você quiser que o texto selecionado tenha mais destaque -->
+            <h1 class="apresentacao__conteudo__titulo">Jake <strong class="titulo-destaque">Jaque</strong></h1>
+            <!-- Tag <p> padrãozinha pra marcar o parágrafo -->
+            <p class="apresentacao__conteudo__texto">Olá! Sou o Jake, um cachorro muito dahora. Venho das montanhas e
+                tenho 2 anos de idade. Ficou afim de me conhecer? Link's abaixo.</p>
+            <!-- Tag a - Significa âncora. A diferença da tag A pra um botão é que o botão se usa quando você quer submeter um formulário. Ou seja, é uma tag pra redirecionamento. O exemplo abaixo mostra que está redirecionando para o site do Instagram  São basicamente Link's-->
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links_subtitulo">Acesse minhas redes sociais</h2>
+                <a class="apresentacao__links__link" href="https://github.com/yuriz7" target="_blank">
+                    <img src="imagens\github.png" alt="GitHub">GitHub
+                </a>
+                <a class="apresentacao__links__link" href="https://linkedin.com" target="_blank">
+                    <img src="imagens\linkedin.png" alt="Linkedin">Linkedin
+                </a>
+                <a class="apresentacao__links__link" href="https://twitter.com" target="_blank">
+                    <img src="imagens\twitter.png" alt="Twitter">Twitter
+                </a>
+            </div>
+        </section>
+        <img src="imagens/jake.jpg" alt="Jakuno">
+    </main>
+    <!-- O footer é o rodapé da página -->
+    <footer class="rodape">
+        <p>Desenvolvido por Yuri</p>
+    </footer>
+</body>
+
+</html>
