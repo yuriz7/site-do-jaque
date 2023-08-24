@@ -55,7 +55,7 @@ body {
 /* Para usar o display flex, você vai pegar o elemente pai, no caso, apresentação está na tag 'main'.
 Por padrão o display flex vem em row, ou seja, formato de linha, da direita pra esquerda */
 .apresentacao {
-    padding: 6% 15%;
+    padding: 8.5% 7%;
     display: flex;
     /* Está utilizando o align-items na tag 'main'. O 'align-items' está alinhando de acordo com os próprios items dentro da tag main. */
     align-items: center;
@@ -91,7 +91,6 @@ Por padrão o display flex vem em row, ou seja, formato de linha, da direita pra
     align-items: center;
     gap: 32px;
     font-weight: bold;
-
 }
 
 .apresentacao__links_subtitulo {
@@ -130,5 +129,10 @@ Por padrão o display flex vem em row, ou seja, formato de linha, da direita pra
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
+}
+
+.jaque_dormindo{
+    width: 25%;
+    height: 30em;
 }
 
